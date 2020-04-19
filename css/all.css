@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+.italic{
+    font-family: 'Roboto', '微軟正黑體', 'sans-serif';
+    font-style:italic;
+}
+.header{
+    height: 960px;
+    background-image: url(../images/bg_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    width: 308px;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 356px;
+    margin-bottom: 32px;
+}
+.header span{
+    font-size: 24px;
+    font-weight: normal;
+}
+.header p{
+    width: 283px;
+    line-height: 42px;
+    margin-bottom: 64px;
+}
+.socialMedia {
+    width: 288px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 256px;
+}
+.socialMedia img{
+    display: block;
+    height: 60px;
+}
+.about{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about h2{
+    font-size: 64px;
+    margin: 56px 0 39px 0;
+}
+.about img{
+    display: block;
+    width: 384px;
+    margin-bottom: 21px;
+}
+.personal{
+    width: 420px;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 27px;
+}
+.personal li{
+    margin-bottom: 4px;
+}
+.career{
+    width: 384px;
+    border-top: 1px solid #000;
+    padding-top: 31px;
+}
+.career li{
+    margin-bottom: 28px;
+    text-align: center;
+    padding-left: 31px;
+}
+.career li::before{
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #891818;
+    position: absolute;
+    margin: 6px 0 0 -38px;
+}
+.brand{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.brand h2{
+    font-size: 64px;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+.brand h3{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.brand p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 48px;
+    text-align: center;
+    line-height: 42px;
+}
+.brand ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 160px;
+}
+.brand li{
+    margin-bottom: 40px;
+    margin-right: 24px;
+}
+.otherWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.otherWork::before{
+    content: "";
+    width: 100%;
+    height: 1558px;
+    background-image: url(../images/bg_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    z-index: -1;
+    margin-top: 361px;
+}
+.otherWork h2{
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+.otherWork p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+.otherWork ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 104px;
+}
+.otherWork li{
+    margin-right: 20px;
+}
+.otherWork li p{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 58px;
+    line-height: 1;
+}
+.contact{
+    background-color: #000;
+    font-family: 'Roboto', '微軟正黑體', 'sans-serif';
+    font-style:italic;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h2{
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+.contact ul{
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+.contact li{
+    margin-bottom: 16px;
+}
