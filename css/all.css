@@ -3,6 +3,7 @@
 }
 body{
     font-family: 'Roboto', '微軟正黑體', 'sans-serif';
+    font-style:italic;
 }
 .italic{
     font-style:italic;
@@ -21,14 +22,15 @@ body{
     justify-content: center;
 }
 .header h1{
-    width: 308px;
     font-size: 80px;
     font-weight: bold;
-    margin-top: 356px;
+    line-height: 94px;
+    padding-top: 50px;
     margin-bottom: 32px;
 }
 .header span{
     font-size: 24px;
+    line-height: 42px;
     font-weight: normal;
 }
 .header p{
@@ -40,7 +42,7 @@ body{
     width: 288px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 256px;
+    /* margin-bottom: 256px; */
 }
 .socialMedia img{
     display: block;
@@ -54,7 +56,7 @@ body{
 }
 .about h2{
     font-size: 64px;
-    margin: 56px 0 39px 0;
+    margin: 64px 0 39px 0;
 }
 .about img{
     display: block;
